@@ -114,7 +114,20 @@
               "mjs",
               "ejs",
               "api",
-              "dev"
+              "dev",
+              "apollo",
+              "dom",
+              "http",
+              "middleware",
+              "uri",
+              "inmemory",
+              "xtconf",
+              "cors",
+              "stdout",
+              "stdin",
+              "stderr",
+              "err",
+              "args"
           ],
           "skipIfMatch": [
               "http://[^s]*",
