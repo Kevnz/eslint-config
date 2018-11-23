@@ -13,7 +13,7 @@ npm install @kev_nz/eslint-config --save-dev
 Add a `.eslintrc.json` file to your project
 ```json
 {
-  "extends": ["@kev_nz/eslint-config"]
+  "extends": ["@kev_nz"]
 }
 ```
 

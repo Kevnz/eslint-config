@@ -1,4 +1,5 @@
 {
+  "parser": "babel-eslint",
   "extends": [
     "standard",
     "prettier",
@@ -101,7 +102,19 @@
               "aff",
               "hunspellchecker",
               "hunspell",
-              "utils"
+              "utils",
+              "hapi",
+              "blipp",
+              "src",
+              "html",
+              "webpack",
+              "lodash",
+              "filename",
+              "jsx",
+              "mjs",
+              "ejs",
+              "api",
+              "dev"
           ],
           "skipIfMatch": [
               "http://[^s]*",
