@@ -102,6 +102,7 @@
             "api",
             "apollo",
             "args",
+            "async",
             "blipp",
             "cors",
             "defs",
