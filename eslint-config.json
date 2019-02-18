@@ -130,6 +130,7 @@
             "middleware",
             "mjs",
             "resolvers",
+            "rfe",
             "src",
             "stderr",
             "stdin",
@@ -138,6 +139,7 @@
             "util",
             "utils",
             "webpack",
+            "xml",
             "xtconf"
           ],
           "skipIfMatch": [

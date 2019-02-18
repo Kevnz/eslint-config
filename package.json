@@ -10,6 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/Kevnz/eslint-config.git"
   },
+  "homepage": "http://kevinisom.info/eslint-config",
   "keywords": [
     "eslint",
     "config",
@@ -20,7 +21,6 @@
   "bugs": {
     "url": "https://github.com/Kevnz/eslint-config/issues"
   },
-  "homepage": "https://github.com/Kevnz/eslint-config#readme",
   "dependencies": {
     "babel-eslint": "^10.0.1",
     "eslint-config-prettier": "^4.0.0",
@@ -40,6 +40,7 @@
     "eslint": "^5.9.0"
   },
   "devDependencies": {
+    "@kev_nz/publisher": "^1.0.1",
     "eslint": "^5.14.0",
     "jest": "^24.1.0"
   }

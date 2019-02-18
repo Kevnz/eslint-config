@@ -18,6 +18,7 @@ Array [
   "err",
   "eslint",
   "filename",
+  "func",
   "github",
   "gql",
   "graphql",
@@ -33,6 +34,7 @@ Array [
   "middleware",
   "mjs",
   "resolvers",
+  "rfe",
   "src",
   "stderr",
   "stdin",
@@ -41,6 +43,7 @@ Array [
   "util",
   "utils",
   "webpack",
+  "xml",
   "xtconf",
 ]
 `;
