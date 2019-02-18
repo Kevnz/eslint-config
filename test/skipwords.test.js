@@ -2,17 +2,16 @@ const eslintConfig = require('../eslint-config.json')
 const skipWords = eslintConfig.rules['spellcheck/spell-checker'][1].skipWords
 
 function hasDuplicates(arr) {
-
   let x = {}
-  let len = arr.length
+  let length = arr.length
 
-  for (let i = 0; i < len; i++) {
-      if (x[arr[i]] === true) {
-           return true;
-      }
-      x[arr[i]] = true;
+  for (let i = 0; i < length; i++) {
+    if (x[arr[i]] === true) {
+      return true
+    }
+    x[arr[i]] = true
   }
-  return false;
+  return false
 }
 describe('The Spelling rules', () => {
   it('should not change', () => {
@@ -21,4 +20,4 @@ describe('The Spelling rules', () => {
   it('should not have duplicates', () => {
     expect(hasDuplicates(skipWords)).toBe(false)
   })
-});
+})
