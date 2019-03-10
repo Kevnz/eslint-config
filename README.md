@@ -25,3 +25,13 @@ ESLint is a peerDependency, so you must install it as well
 ```bash
 npm install eslint --save-dev
 ```
+
+## Extends
+
+* Standard
+* Prettier
+* React
+* SonarJS
+* Import order
+* Spellchecking
+
