@@ -4,7 +4,10 @@
   "description": "ESLint config",
   "main": "index.js",
   "scripts": {
-    "test": "eslint ./test -c eslint-config.json"
+    "test": "eslint ./test -c eslint-config.json",
+    "preversion": "npm test",
+    "postversion": "npm publish --access=public",
+    "postpublish": "git push origin --all --follow-tags && npx publisher && node ./scripts/publish.js"
   },
   "repository": {
     "type": "git",
@@ -22,26 +25,26 @@
     "url": "https://github.com/Kevnz/eslint-config/issues"
   },
   "dependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint-config-prettier": "^4.2.0",
+    "babel-eslint": "^10.0.2",
+    "eslint-config-prettier": "^6.0.0",
     "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.17.2",
-    "eslint-plugin-no-only-tests": "^2.3.0",
-    "eslint-plugin-node": "^8.0.1",
-    "eslint-plugin-prettier": "^3.0.1",
-    "eslint-plugin-promise": "^4.1.1",
-    "eslint-plugin-react": "^7.12.4",
-    "eslint-plugin-sonarjs": "^0.3.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-no-only-tests": "^2.3.1",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.2",
+    "eslint-plugin-sonarjs": "^0.4.0",
     "eslint-plugin-spellcheck": "0.0.11",
     "eslint-plugin-standard": "^4.0.0",
-    "prettier": "^1.17.0"
+    "prettier": "^1.18.2"
   },
   "peerDependencies": {
-    "eslint": "^5.9.0"
+    "eslint": "^6.0.0"
   },
   "devDependencies": {
-    "@kev_nz/publisher": "^3.0.1",
-    "eslint": "^5.16.0",
-    "jest": "^24.7.1"
+    "@kev_nz/publisher": "^4.0.1",
+    "eslint": "^6.0.1",
+    "jest": "^24.8.0"
   }
 }
