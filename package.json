@@ -1,6 +1,6 @@
 {
   "name": "@kev_nz/eslint-config",
-  "version": "3.3.0",
+  "version": "4.0.0",
   "description": "ESLint config",
   "main": "index.js",
   "scripts": {
