@@ -2,8 +2,8 @@ const eslintConfig = require('../eslint-config.json')
 const skipWords = eslintConfig.rules['spellcheck/spell-checker'][1].skipWords
 
 function hasDuplicates(arr) {
-  let x = {}
-  let length = arr.length
+  const x = {}
+  const length = arr.length
 
   for (let i = 0; i < length; i++) {
     if (x[arr[i]] === true) {
