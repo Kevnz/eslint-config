@@ -41,7 +41,7 @@
     "prettier": "^1.19.1"
   },
   "peerDependencies": {
-    "eslint": "^6.0.0"
+    "eslint": ">= 6.0.0"
   },
   "devDependencies": {
     "@kev_nz/publisher": "^4.0.1",
