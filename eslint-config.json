@@ -21,6 +21,9 @@
           ".jsx"
         ]
       }
+    },
+    "react": {
+      "version": "detect"
     }
   },
   "rules": {
@@ -101,9 +104,11 @@
             "aff",
             "api",
             "apollo",
+            "archiver",
             "args",
             "async",
             "auth",
+            "aws",
             "blipp",
             "cors",
             "defs",
@@ -124,6 +129,7 @@
             "http",
             "hunspell",
             "hunspellchecker",
+            "iam",
             "inmemory",
             "joi",
             "jss",
@@ -133,22 +139,34 @@
             "lodash",
             "middleware",
             "mjs",
+            "ncc",
+            "nodejs",
             "params",
             "pre",
             "readdir",
             "readis",
             "resolvers",
             "rfe",
+            "runtime",
+            "sdk",
+            "serverless",
             "src",
             "stderr",
             "stdin",
             "stdout",
+            "uploader",
             "uri",
+            "utf",
+            "utf8",
+            "utf16",
             "util",
             "utils",
             "webpack",
             "xml",
-            "xtconf"
+            "xtconf",
+            "yml",
+            "yaml",
+            "zeit"
           ],
           "skipIfMatch": [
               "http://[^s]*",
